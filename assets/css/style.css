@@ -1,0 +1,73 @@
+/*
+ * CSS Rules
+ */
+
+ * {
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+
+/*
+ * General Rules
+ */
+
+ body {
+ 	background: #1B1B1B;
+ 	font-family: 'Lato', sans-serif;
+ }
+
+/*
+ * Main
+ */
+
+ #main {
+ 	background: #FFF;
+ 	width: 90%;
+ 	min-height: 100vh;
+ 	padding: 20px;
+ 	margin: 0 auto;
+ }
+
+ #title {
+ 	text-align: center;
+ 	letter-spacing: 0.1em;
+ 	margin-bottom: 20px;
+ }
+
+ #image {
+ 	display: block;
+ 	max-width: 70%;
+ 	height: auto;
+ 	margin: 0 auto;
+ }
+
+ #img-caption {
+ 	font-size: 13px;
+ 	text-align: center;
+ 	letter-spacing: 0.1em;
+ }
+
+ #tribute-info {
+ 	line-height: 1.8;
+ 	border: 1px solid #000;
+ 	margin-top: 30px;
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+ 	margin-bottom: 10px;
+ 	padding: 20px;
+ }
+
+ #tribute-link {
+ 	color: #3873D7;
+ }
+ 
+ .tribute-text {
+ 	margin-bottom: 15px;	
+ 	text-align: justify;
+ }
+
+ #tribute-text-link {
+ 	text-align: center;
+ 	margin-top: 20px;
+ }
